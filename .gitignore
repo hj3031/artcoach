@@ -1,0 +1,17 @@
+# 설치 파일과 컴퓨터별 임시 파일
+node_modules/
+.cache/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# 비밀 설정 및 개인 자료
+.env
+.env.*
+*.pem
+*.key
+private/
+backups/
+*.zip
+# assets/app.js는 배포에 필요하므로 제외하지 않습니다.
